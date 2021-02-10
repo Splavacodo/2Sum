@@ -1,1 +1,1 @@
-# 2Sum
+LeetCode #1 Solution
