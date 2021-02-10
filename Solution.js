@@ -1,7 +1,7 @@
 let twoSum = (nums, target) => {
-    let map = new Map; //create a map to keep track of numbers
+    let map = new Map; //create a map to keep track of nums and their index
     for(let i = 0; i < nums.length; i++) { //loop through the list of nums
-        let comp = target - nums[i]; //make a variable that stores the solution subtracted from the current num in nums
+        let comp = target - nums[i]; //make a variable that stores the solution subtracted from the current num
         if(map.has(comp)) { //if the map contains comp return the indexes that add up to target
             return [map.get(comp), i]
         }
